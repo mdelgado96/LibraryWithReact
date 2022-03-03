@@ -45,25 +45,23 @@ function App() {
   }, [cart]);
 
   return (
-    <Router basename={'/LibraryWithReact'}>
+    <Router basename={'/mdelgado96/LibraryWithReact'}>
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/books" render={() => <Books books={books} />} />
-          <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
-          <Route
-            path="/cart"
-            render={() => (
-              <Cart
-                books={books}
-                cart={cart}
-                changQuantity={changeQuantity}
-                removeItem={removeItem}
-              />
-            )}
-          />
-        </Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/books" render={() => <Books books={books} />} />
+        <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
+        <Route
+          path="/cart"
+          render={() => (
+            <Cart
+              books={books}
+              cart={cart}
+              changQuantity={changeQuantity}
+              removeItem={removeItem}
+            />
+          )}
+        />
         <Footer />
       </div>
     </Router>
