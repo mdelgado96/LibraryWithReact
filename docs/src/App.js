@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
 import Footer from "./components/Footer"
-import { BrowserRouter as Router, Route } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import Home from "./pages/Home"
 import Books from "./pages/Books"
 import { books } from "./data";
@@ -45,23 +45,25 @@ function App() {
   }, [cart]);
 
   return (
-    <Router basename={'/LibraryWithReact' || ''}>
+    <Router basename={'/LibraryWithReact'}>
       <div className="App">
-        <Nav numberOfItems={numberOfItems()}/>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/books" render={() => <Books books={books} />} />
-        <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
-        <Route
-          path="/cart"
-          render={() => (
-            <Cart
-              books={books}
-              cart={cart}
-              changQuantity={changeQuantity}
-              removeItem={removeItem}
-            />
-          )}
-        />
+        <Nav numberOfItems={numberOfItems()} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/books" render={() => <Books books={books} />} />
+          <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
+          <Route
+            path="/cart"
+            render={() => (
+              <Cart
+                books={books}
+                cart={cart}
+                changQuantity={changeQuantity}
+                removeItem={removeItem}
+              />
+            )}
+          />
+        </Switch>
         <Footer />
       </div>
     </Router>
