@@ -45,7 +45,7 @@ function App() {
   }, [cart]);
 
   return (
-    <BrowseRouter basename={window.location.path || ''}>
+    <Router basename={window.location.path || ''}>
       <div className="App">
         <Nav numberOfItems={numberOfItems()}/>
         <Route exact path="/" component={Home} />
@@ -64,7 +64,7 @@ function App() {
         />
         <Footer />
       </div>
-    </BrowseRouter>
+    </Router>
   );
 }
 
