@@ -1,7 +1,7 @@
 {
   "name": "library-with-react",
   "version": "0.1.0",
-  "homepage": "https://github.com/mdelgado96/LibraryWithReact",
+  "homepage": "https://mdelgado96.github.io/LibraryWithReact/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
