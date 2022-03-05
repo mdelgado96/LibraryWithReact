@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mdelgado96/LibraryWithReact/static/css/main.1eeab5d0.css",
-    "main.js": "/mdelgado96/LibraryWithReact/static/js/main.c4160749.js",
-    "static/js/787.f4d64844.chunk.js": "/mdelgado96/LibraryWithReact/static/js/787.f4d64844.chunk.js",
-    "static/media/empty_cart.svg": "/mdelgado96/LibraryWithReact/static/media/empty_cart.263db7f4c8cd5c5057e074ba91046f11.svg",
-    "static/media/Library.svg": "/mdelgado96/LibraryWithReact/static/media/Library.acf9f02e2be657e4263ad8d8ca4b54df.svg",
-    "static/media/Undraw_Books.svg": "/mdelgado96/LibraryWithReact/static/media/Undraw_Books.6f1ba9bf6b444ca12c914d032cab6f64.svg",
-    "index.html": "/mdelgado96/LibraryWithReact/index.html",
-    "static/media/wave.svg": "/mdelgado96/LibraryWithReact/static/media/wave.8655d74a045533bb9e04.svg",
-    "main.1eeab5d0.css.map": "/mdelgado96/LibraryWithReact/static/css/main.1eeab5d0.css.map",
-    "main.c4160749.js.map": "/mdelgado96/LibraryWithReact/static/js/main.c4160749.js.map",
-    "787.f4d64844.chunk.js.map": "/mdelgado96/LibraryWithReact/static/js/787.f4d64844.chunk.js.map"
+    "main.css": "/LibraryWithReact/static/css/main.2327dd1d.css",
+    "main.js": "/LibraryWithReact/static/js/main.67100601.js",
+    "static/js/787.f4d64844.chunk.js": "/LibraryWithReact/static/js/787.f4d64844.chunk.js",
+    "static/media/empty_cart.svg": "/LibraryWithReact/static/media/empty_cart.263db7f4c8cd5c5057e074ba91046f11.svg",
+    "static/media/Library.svg": "/LibraryWithReact/static/media/Library.acf9f02e2be657e4263ad8d8ca4b54df.svg",
+    "static/media/Undraw_Books.svg": "/LibraryWithReact/static/media/Undraw_Books.6f1ba9bf6b444ca12c914d032cab6f64.svg",
+    "index.html": "/LibraryWithReact/index.html",
+    "static/media/wave.svg": "/LibraryWithReact/static/media/wave.8655d74a045533bb9e04.svg",
+    "main.2327dd1d.css.map": "/LibraryWithReact/static/css/main.2327dd1d.css.map",
+    "main.67100601.js.map": "/LibraryWithReact/static/js/main.67100601.js.map",
+    "787.f4d64844.chunk.js.map": "/LibraryWithReact/static/js/787.f4d64844.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eeab5d0.css",
-    "static/js/main.c4160749.js"
+    "static/css/main.2327dd1d.css",
+    "static/js/main.67100601.js"
   ]
 }
