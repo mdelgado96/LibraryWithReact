@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LibraryWithReact/static/css/main.2327dd1d.css",
-    "main.js": "/LibraryWithReact/static/js/main.0921b2ff.js",
+    "main.js": "/LibraryWithReact/static/js/main.e10f8e1d.js",
     "static/js/787.f4d64844.chunk.js": "/LibraryWithReact/static/js/787.f4d64844.chunk.js",
     "static/media/empty_cart.svg": "/LibraryWithReact/static/media/empty_cart.263db7f4c8cd5c5057e074ba91046f11.svg",
     "static/media/Library.svg": "/LibraryWithReact/static/media/Library.acf9f02e2be657e4263ad8d8ca4b54df.svg",
@@ -9,11 +9,11 @@
     "index.html": "/LibraryWithReact/index.html",
     "static/media/wave.svg": "/LibraryWithReact/static/media/wave.8655d74a045533bb9e04.svg",
     "main.2327dd1d.css.map": "/LibraryWithReact/static/css/main.2327dd1d.css.map",
-    "main.0921b2ff.js.map": "/LibraryWithReact/static/js/main.0921b2ff.js.map",
+    "main.e10f8e1d.js.map": "/LibraryWithReact/static/js/main.e10f8e1d.js.map",
     "787.f4d64844.chunk.js.map": "/LibraryWithReact/static/js/787.f4d64844.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2327dd1d.css",
-    "static/js/main.0921b2ff.js"
+    "static/js/main.e10f8e1d.js"
   ]
 }
