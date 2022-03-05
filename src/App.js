@@ -45,12 +45,12 @@ function App() {
   }, [cart]);
 
   return (
-    <Router basename={'/LibraryWithReact'}>
+    <Router basename={'/'}>
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
-        <Route exact path="/LibraryWithReact" component={Home} />
-        <Route exact path="/LibraryWithReact/books" render={() => <Books books={books} />} />
-        <Route path="/LibraryWithReact/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/books" render={() => <Books books={books} />} />
+        <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
         <Route
           path="/cart"
           render={() => (
