@@ -1,0 +1,3 @@
+https://mdelgado96.github.io/?/LibraryWithReact/
+https://mdelgado96.github.io/?/LibraryWithReact/books
+https://mdelgado96.github.io/?/LibraryWithReact/cart
