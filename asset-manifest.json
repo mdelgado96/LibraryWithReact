@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/LibraryWithReact/static/css/main.2327dd1d.css",
-    "main.js": "/LibraryWithReact/static/js/main.f868aca8.js",
+    "main.js": "/LibraryWithReact/static/js/main.ffafbde0.js",
     "static/media/empty_cart.svg": "/LibraryWithReact/static/media/empty_cart.263db7f4c8cd5c5057e074ba91046f11.svg",
     "static/media/Library.svg": "/LibraryWithReact/static/media/Library.acf9f02e2be657e4263ad8d8ca4b54df.svg",
     "static/media/Undraw_Books.svg": "/LibraryWithReact/static/media/Undraw_Books.6f1ba9bf6b444ca12c914d032cab6f64.svg",
     "index.html": "/LibraryWithReact/index.html",
     "static/media/wave.svg": "/LibraryWithReact/static/media/wave.8655d74a045533bb9e04.svg",
     "main.2327dd1d.css.map": "/LibraryWithReact/static/css/main.2327dd1d.css.map",
-    "main.f868aca8.js.map": "/LibraryWithReact/static/js/main.f868aca8.js.map"
+    "main.ffafbde0.js.map": "/LibraryWithReact/static/js/main.ffafbde0.js.map"
   },
   "entrypoints": [
     "static/css/main.2327dd1d.css",
-    "static/js/main.f868aca8.js"
+    "static/js/main.ffafbde0.js"
   ]
 }
