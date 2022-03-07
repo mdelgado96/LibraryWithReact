@@ -7,7 +7,6 @@ import { books } from "./data";
 import Bookinfo from "./pages/BookInfo";
 import Cart from "./pages/Cart";
 import { useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -46,28 +45,26 @@ function App() {
   }, [cart]);
 
   return (
-    <BrowserRouter>
-      <Router basename={'/LibraryWithReact'}>
-        <div className="App">
-          <Nav numberOfItems={numberOfItems()} />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/books" render={() => <Books books={books} />} />
-          <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
-          <Route
-            path="/cart"
-            render={() => (
-              <Cart
-                books={books}
-                cart={cart}
-                changQuantity={changeQuantity}
-                removeItem={removeItem}
-              />
-            )}
-          />
-          <Footer />
-        </div>
-      </Router>
-    </BrowserRouter>
+    <Router basename={'/LibraryWithReact'}>
+      <div className="App">
+        <Nav numberOfItems={numberOfItems()} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/books" render={() => <Books books={books} />} />
+        <Route path="/books/:id" render={() => <Bookinfo books={books} addToCart={addToCart} />} />
+        <Route
+          path="/cart"
+          render={() => (
+            <Cart
+              books={books}
+              cart={cart}
+              changQuantity={changeQuantity}
+              removeItem={removeItem}
+            />
+          )}
+        />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
