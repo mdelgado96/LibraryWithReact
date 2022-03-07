@@ -45,7 +45,7 @@ function App() {
   }, [cart]);
 
   return (
-    <Router basename={'/LibraryWithReact/'}>
+    <Router basename={'/LibraryWithReact'}>
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Route exact path="/" component={Home} />
